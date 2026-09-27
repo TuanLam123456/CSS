@@ -1,25 +1,9 @@
-.title {
-  font-size: 52px;
+button {
+  transition: padding 300ms;
 }
 
-.paragraph {
-  font-size: 24px;
-}
-
-@media(max-width: 640px) {
-  .title{
-    font-size: 36px;
-  }
-  .paragraph{
-    font-size: 24px;
-  }
-}
-
-@media(max-width: 480px) {
-  .title {
-    font-size: 32px;
-  }
-  .paragraph{
-    font-size: 20px;
-  }
+button:hover {
+  padding: 4px;
+  background-color: red;
+  opacity: 30%;
 }
