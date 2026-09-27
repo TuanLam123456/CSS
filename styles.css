@@ -1,0 +1,19 @@
+body {
+  height: 150vh;
+}
+
+.parent {
+  height: 200px;
+  background-color: red;
+  position: sticky;
+  top: 0;
+}
+
+.child {
+  width: 64px;
+  height: 64px;
+  background-color: green;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
