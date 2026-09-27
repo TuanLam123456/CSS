@@ -9,10 +9,12 @@ body{
   /* justify-content: flex-end; */
 
   /* center */
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
 
-  /*  */
+  /* space-between, space-around, space-evenly */
+  justify-content: space-around;
+  align-items: center;
 }
 .box{
   height: 200px;
