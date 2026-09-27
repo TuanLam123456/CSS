@@ -2,18 +2,10 @@ body{
   min-height: 800px;
   border: 8px solid black;
   display: flex;
-  /* Mặc định: flex-start - dồn sang trái  */
-  /* justify-content: flex-start; */
-
-  /* flex-end: dồn sang phải */
-  /* justify-content: flex-end; */
-
-  /* center */
-  /* justify-content: center;
-  align-items: center; */
-
-  /* space-between, space-around, space-evenly */
-  justify-content: space-around;
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
 }
 .box{
