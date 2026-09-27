@@ -3,10 +3,7 @@ body{
   border: 8px solid black;
   display: flex;
   gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+  
 }
 .box{
   display: flex;
